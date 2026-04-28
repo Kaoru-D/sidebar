@@ -19,37 +19,37 @@ export const links = [
   {
     id: 1,
     url: '/',
-    text: 'home',
+    text: 'Menú Principal',
     icon: <FaHome />,
   },
   {
     id: 2,
     url: '/team',
-    text: 'team',
+    text: 'Equipo',
     icon: <FaUserFriends />,
   },
   {
     id: 3,
     url: '/projects',
-    text: 'projects',
+    text: 'Proyectos',
     icon: <FaFolderOpen />,
   },
   {
     id: 4,
     url: '/calendar',
-    text: 'calendar',
+    text: 'Calendario',
     icon: <FaCalendarAlt />,
   },
   {
     id: 5,
     url: '/documents',
-    text: 'documents',
+    text: 'Documentos',
     icon: <FaWpforms />,
   },
   {
     id: 6,
     url: '/analytics',
-    text: 'analytics',
+    text: 'Analítica',
     icon: <FaAirbnb />,
   },
   {
