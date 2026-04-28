@@ -10,6 +10,10 @@ import {
   FaFolderOpen,
   FaCalendarAlt,
   FaWpforms,
+  FaAirbnb,
+  FaGoogle,
+  FaInstagram,
+  FaPinterest,
 } from 'react-icons/fa';
 export const links = [
   {
@@ -42,12 +46,36 @@ export const links = [
     text: 'documents',
     icon: <FaWpforms />,
   },
+  {
+    id: 6,
+    url: '/analytics',
+    text: 'analytics',
+    icon: <FaAirbnb />,
+  },
+  {
+    id: 7,
+    url: '/google',
+    text: 'google',
+    icon: <FaGoogle />,
+  },
+  {
+    id: 8,
+    url: '/instagram',
+    text: 'instagram',
+    icon: <FaInstagram />,
+  },
+  {
+    id: 9,
+    url: '/pinterest',
+    text: 'pinterest',
+    icon: <FaPinterest />,
+  },
 ];
 
 export const social = [
   {
     id: 1,
-    url: 'https://www.twitter.com',
+    url: 'https://www.facebook.com',
     icon: <FaFacebook />,
   },
   {
@@ -57,17 +85,36 @@ export const social = [
   },
   {
     id: 3,
-    url: 'https://www.twitter.com',
+    url: 'https://www.linkedin.com',
     icon: <FaLinkedin />,
   },
   {
     id: 4,
-    url: 'https://www.twitter.com',
+    url: 'https://www.behance.net',
     icon: <FaBehance />,
   },
   {
     id: 5,
-    url: 'https://www.twitter.com',
+    url: 'https://www.sketch.com',
     icon: <FaSketch />,
+  },
+  {    id: 6,
+    url: 'https://www.airbnb.com',
+    icon: <FaAirbnb />,
+  }, 
+  {
+    id: 7,
+    url: 'https://www.google.com',
+    icon: <FaGoogle />,
+  },
+  {
+    id: 8,
+    url: 'https://www.instagram.com',
+    icon: <FaInstagram />,
+  },
+  {
+    id: 9,
+    url: 'https://www.pinterest.com',
+    icon: <FaPinterest />,
   },
 ];

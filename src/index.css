@@ -257,3 +257,36 @@ ul {
 Project CSS
 ===============
 */
+main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--grey-100);
+}
+
+.sidebar-toggle {
+  position: fixed;
+  top: 2rem;
+  left: 3rem;
+  font-size: 2rem;
+  background: transparent;
+  border-color: transparent;
+  color: var(--primary-500);
+  transition: var(--transition);
+  cursor: pointer;
+}
+@keyframes bounce {
+  0%{
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.25);
+  }
+}
+.sidebar-toggle:hover {
+  animation: bounce 1.25s ease-in-out infinite;
+}
